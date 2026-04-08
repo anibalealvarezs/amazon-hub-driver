@@ -12,9 +12,17 @@
         "php": ">=8.1",
         "anibalealvarezs/api-client-skeleton": "dev-main"
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://satis.anibalalvarez.com/"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Anibalealvarezs\\AmazonHubDriver\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
 }
