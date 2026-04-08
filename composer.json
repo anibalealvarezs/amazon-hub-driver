@@ -1,0 +1,20 @@
+{
+    "name": "anibalealvarezs/amazon-hub-driver",
+    "description": "Amazon driver for the Hub ecosystem",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aníbal Álvarez",
+            "email": "anibalealvarezs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "anibalealvarezs/api-client-skeleton": "dev-main"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anibalealvarezs\\AmazonHubDriver\\": "src/"
+        }
+    }
+}
