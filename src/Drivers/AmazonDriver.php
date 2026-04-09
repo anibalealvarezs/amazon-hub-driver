@@ -27,6 +27,11 @@ class AmazonDriver implements SyncDriverInterface
         $this->authProvider = $provider;
     }
 
+    public function getAuthProvider(): ?AuthProviderInterface
+    {
+        return $this->authProvider;
+    }
+
     public function getChannel(): string
     {
         return 'amazon';
