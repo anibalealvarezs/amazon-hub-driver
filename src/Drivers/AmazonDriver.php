@@ -4,12 +4,15 @@ namespace Anibalealvarezs\AmazonHubDriver\Drivers;
 
 use Anibalealvarezs\ApiSkeleton\Interfaces\SyncDriverInterface;
 use Anibalealvarezs\ApiSkeleton\Interfaces\AuthProviderInterface;
+use Anibalealvarezs\ApiSkeleton\Traits\HasUpdatableCredentials;
 use Symfony\Component\HttpFoundation\Response;
 use Psr\Log\LoggerInterface;
 use DateTime;
 
 class AmazonDriver implements SyncDriverInterface
 {
+    use HasUpdatableCredentials;
+
     private ?AuthProviderInterface $authProvider = null;
     private ?LoggerInterface $logger = null;
 
