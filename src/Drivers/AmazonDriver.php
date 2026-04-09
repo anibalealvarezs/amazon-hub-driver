@@ -40,4 +40,9 @@ class AmazonDriver implements SyncDriverInterface
             'message' => 'Amazon modular driver placeholder executed successfully.'
         ]));
     }
+
+    public function getApi(array $config = []): mixed
+    {
+        return null;
+    }
 }
