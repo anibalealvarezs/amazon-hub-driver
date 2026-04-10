@@ -34,6 +34,16 @@ class AmazonDriver implements SyncDriverInterface
         return [];
     }
 
+    /**
+     * Get the display label for the channel.
+     * 
+     * @return string
+     */
+    public static function getChannelLabel(): string
+    {
+        return 'Amazon';
+    }
+
     public static function getCommonConfigKey(): ?string
     {
         return null;
