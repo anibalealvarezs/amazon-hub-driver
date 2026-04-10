@@ -3,8 +3,8 @@
 namespace Anibalealvarezs\AmazonHubDriver\Drivers;
 
 use Anibalealvarezs\ApiDriverCore\Interfaces\SyncDriverInterface;
-use Anibalealvarezs\ApiDriverCore\Interfaces\AuthProviderInterface;
-use Anibalealvarezs\ApiDriverCore\Traits\HasUpdatableCredentials;
+use Anibalealvarezs\ApiSkeleton\Interfaces\AuthProviderInterface;
+use Anibalealvarezs\ApiSkeleton\Traits\HasUpdatableCredentials;
 use Symfony\Component\HttpFoundation\Response;
 use Psr\Log\LoggerInterface;
 use DateTime;
