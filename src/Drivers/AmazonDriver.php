@@ -89,4 +89,8 @@ class AmazonDriver implements SyncDriverInterface
     {
         // Placeholder for future implementation
     }
+    public function boot(): void
+    {
+    }
 }
+
