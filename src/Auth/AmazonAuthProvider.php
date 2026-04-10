@@ -2,7 +2,7 @@
 
 namespace Anibalealvarezs\AmazonHubDriver\Auth;
 
-use Anibalealvarezs\ApiSkeleton\Interfaces\AuthProviderInterface;
+use Anibalealvarezs\ApiDriverCore\Interfaces\AuthProviderInterface;
 
 class AmazonAuthProvider implements AuthProviderInterface
 {
