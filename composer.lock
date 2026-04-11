@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "../amazon-api-anibal",
-                "reference": "b8d905393465e47d4fbcedcd628ee8e276a45cdb"
+                "reference": "89563e2e1e8e2ac73e543575e06c4de348f54ab1"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
@@ -61,7 +61,7 @@
             "dist": {
                 "type": "path",
                 "url": "../api-client-skeleton",
-                "reference": "642909c808c91df52508467cc25de29764507d47"
+                "reference": "17a041884f3cb41a2250ebbc0c07be23c8040b5e"
             },
             "require": {
                 "anibalealvarezs/oauth-v1": "@dev",
@@ -120,7 +120,7 @@
             "dist": {
                 "type": "path",
                 "url": "../api-driver-core",
-                "reference": "012a9511d300d744e4a20a95c5ffce74ce6ccaa9"
+                "reference": "e9f71b5b186732c6a05a1dc696f10e5bcea3b5f1"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
