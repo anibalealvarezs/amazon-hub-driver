@@ -120,7 +120,7 @@
             "dist": {
                 "type": "path",
                 "url": "../api-driver-core",
-                "reference": "7065448224e4b8a449d7b2e9fdab5d0f36cad50d"
+                "reference": "a5512f9835f6b077bdf0d2cf472291394568bc7f"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
@@ -1474,12 +1474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/CarbonPHP/carbon.git",
-                "reference": "e890471a3494740f7d9326d72ce6a8c559ffee60"
+                "reference": "223ab55b3fa726d369c9c3098c6933135fa97f53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/e890471a3494740f7d9326d72ce6a8c559ffee60",
-                "reference": "e890471a3494740f7d9326d72ce6a8c559ffee60",
+                "url": "https://api.github.com/repos/CarbonPHP/carbon/zipball/223ab55b3fa726d369c9c3098c6933135fa97f53",
+                "reference": "223ab55b3fa726d369c9c3098c6933135fa97f53",
                 "shasum": ""
             },
             "require": {
@@ -1572,7 +1572,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-07T09:57:54+00:00"
+            "time": "2026-04-12T10:58:34+00:00"
         },
         {
             "name": "predis/predis",
