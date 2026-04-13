@@ -120,7 +120,7 @@
             "dist": {
                 "type": "path",
                 "url": "../api-driver-core",
-                "reference": "be42f153e702464a0a730c4c6c30dcb4fa70ee3b"
+                "reference": "b317a65a2366e899d5513146d228b04a2c542a67"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
