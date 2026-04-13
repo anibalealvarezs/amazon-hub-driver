@@ -59,6 +59,11 @@ class AmazonAuthProvider implements AuthProviderInterface
         return $this->credentials['access_token'] ?? '';
     }
 
+    public function getUserId(): string
+    {
+        return $this->credentials['user_id'] ?? '';
+    }
+
     public function isValid(): bool
     {
         return !empty($this->credentials['access_token']) || !empty($this->credentials['refresh_token']);
