@@ -12,7 +12,7 @@
             "dist": {
                 "type": "path",
                 "url": "../amazon-api-anibal",
-                "reference": "89563e2e1e8e2ac73e543575e06c4de348f54ab1"
+                "reference": "1efa4ca68afdf411cb8f0661f14c46d807f360ce"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
@@ -61,7 +61,7 @@
             "dist": {
                 "type": "path",
                 "url": "../api-client-skeleton",
-                "reference": "17a041884f3cb41a2250ebbc0c07be23c8040b5e"
+                "reference": "64e442084a7ff81399b8de8f2f8841ff7bcd5b71"
             },
             "require": {
                 "anibalealvarezs/oauth-v1": "@dev",
@@ -120,7 +120,7 @@
             "dist": {
                 "type": "path",
                 "url": "../api-driver-core",
-                "reference": "b317a65a2366e899d5513146d228b04a2c542a67"
+                "reference": "64974c2ada3e603b12d54c17da118c48ed5ff0cb"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
@@ -3064,12 +3064,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "6d002d478b4e1cad8704c531dfa373187ffd7889"
+                "reference": "350eb0b8e6334e5cc46a36121bd2ede5571f3f40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/6d002d478b4e1cad8704c531dfa373187ffd7889",
-                "reference": "6d002d478b4e1cad8704c531dfa373187ffd7889",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/350eb0b8e6334e5cc46a36121bd2ede5571f3f40",
+                "reference": "350eb0b8e6334e5cc46a36121bd2ede5571f3f40",
                 "shasum": ""
             },
             "require": {
@@ -3156,7 +3156,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-13T15:32:30+00:00"
+            "time": "2026-04-14T06:40:07+00:00"
         },
         {
             "name": "symfony/translation-contracts",
@@ -3247,12 +3247,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "6e5ad609515395a920b5aa460e677a569b8771bb"
+                "reference": "c337020d7fa4364cb03180a628a999e6ac55e4c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/6e5ad609515395a920b5aa460e677a569b8771bb",
-                "reference": "6e5ad609515395a920b5aa460e677a569b8771bb",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/c337020d7fa4364cb03180a628a999e6ac55e4c6",
+                "reference": "c337020d7fa4364cb03180a628a999e6ac55e4c6",
                 "shasum": ""
             },
             "require": {
@@ -3320,7 +3320,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-13T15:32:30+00:00"
+            "time": "2026-04-14T12:21:03+00:00"
         },
         {
             "name": "symfony/yaml",
