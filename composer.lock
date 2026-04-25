@@ -4,15 +4,21 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a2e5bb0591dba0ffc2d8868fbd841f4",
+    "content-hash": "50c1a382cd33621cdebdf21298be6e8a",
     "packages": [
         {
             "name": "anibalealvarezs/amazon-api",
             "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "../amazon-api-anibal",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:anibalealvarezs/amazon-api.git",
                 "reference": "416006e402b9213b74b186cb2207246b62be1423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://satis.anibalalvarez.com/dist/anibalealvarezs/amazon-api/anibalealvarezs-amazon-api-416006e402b9213b74b186cb2207246b62be1423-zip-9fed55.zip",
+                "reference": "416006e402b9213b74b186cb2207246b62be1423",
+                "shasum": "1e2ab703cec109d5203973e01acb25f0230d4e0f"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
@@ -29,6 +35,7 @@
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^9"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -50,18 +57,21 @@
                 }
             ],
             "description": "description",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-04-19T23:18:40+00:00"
         },
         {
             "name": "anibalealvarezs/api-client-skeleton",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:anibalealvarezs/api-client-skeleton.git",
+                "reference": "d0c0ddb0f1f66680f896a1da7c96417a806c64eb"
+            },
             "dist": {
-                "type": "path",
-                "url": "../api-client-skeleton",
-                "reference": "2539607f24d21f2684d3e7baa7a01e9e8144fc91"
+                "type": "zip",
+                "url": "https://satis.anibalalvarez.com/dist/anibalealvarezs/api-client-skeleton/anibalealvarezs-api-client-skeleton-d0c0ddb0f1f66680f896a1da7c96417a806c64eb-zip-ff7de6.zip",
+                "reference": "d0c0ddb0f1f66680f896a1da7c96417a806c64eb",
+                "shasum": "d93095f7d2d51c32736711c34e7e90aace0eaa80"
             },
             "require": {
                 "anibalealvarezs/oauth-v1": "@dev",
@@ -76,6 +86,7 @@
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^9"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -109,18 +120,21 @@
             "support": {
                 "issues": "https://github.com/anibalealvarezs/api-client-skeleton/issues"
             },
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-04-25T01:16:17+00:00"
         },
         {
             "name": "anibalealvarezs/api-driver-core",
             "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:anibalealvarezs/api-driver-core.git",
+                "reference": "2f895d57097179ec461c7f12fac7e5d5a87cf63d"
+            },
             "dist": {
-                "type": "path",
-                "url": "../api-driver-core",
-                "reference": "8db25099aee139c7251b134cb7314dc9da9b5ddf"
+                "type": "zip",
+                "url": "https://satis.anibalalvarez.com/dist/anibalealvarezs/api-driver-core/anibalealvarezs-api-driver-core-2f895d57097179ec461c7f12fac7e5d5a87cf63d-zip-8e251e.zip",
+                "reference": "2f895d57097179ec461c7f12fac7e5d5a87cf63d",
+                "shasum": "c1db7b15a76607271dacd075b42efc993d78982a"
             },
             "require": {
                 "anibalealvarezs/api-client-skeleton": "dev-main",
@@ -133,6 +147,7 @@
                 "symfony/http-foundation": "^6.0 || ^7.0",
                 "symfony/yaml": "^6.0 || ^7.0"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -149,10 +164,7 @@
                 }
             ],
             "description": "Core interfaces and orchestration logic for APIs Hub drivers.",
-            "transport-options": {
-                "symlink": true,
-                "relative": true
-            }
+            "time": "2026-04-25T01:14:37+00:00"
         },
         {
             "name": "anibalealvarezs/oauth-v1",
@@ -379,12 +391,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "748125cc3afee13f425d8a736f7fb180af5fa72c"
+                "reference": "f1b02f8415419b8e0b731baaa2c863db855e1190"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/748125cc3afee13f425d8a736f7fb180af5fa72c",
-                "reference": "748125cc3afee13f425d8a736f7fb180af5fa72c",
+                "url": "https://api.github.com/repos/doctrine/dbal/zipball/f1b02f8415419b8e0b731baaa2c863db855e1190",
+                "reference": "f1b02f8415419b8e0b731baaa2c863db855e1190",
                 "shasum": ""
             },
             "require": {
@@ -477,7 +489,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-19T16:59:56+00:00"
+            "time": "2026-04-21T17:06:25+00:00"
         },
         {
             "name": "doctrine/deprecations",
@@ -2132,12 +2144,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "ad665e88b844414e81707b0a33dfe757c65393f7"
+                "reference": "8c576a888693f99ddcb0bc4ad3acb48761d0bbe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/ad665e88b844414e81707b0a33dfe757c65393f7",
-                "reference": "ad665e88b844414e81707b0a33dfe757c65393f7",
+                "url": "https://api.github.com/repos/symfony/console/zipball/8c576a888693f99ddcb0bc4ad3acb48761d0bbe1",
+                "reference": "8c576a888693f99ddcb0bc4ad3acb48761d0bbe1",
                 "shasum": ""
             },
             "require": {
@@ -2224,7 +2236,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-18T13:52:23+00:00"
+            "time": "2026-04-22T10:29:21+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
