@@ -10,10 +10,24 @@ use Psr\Log\LoggerInterface;
 use DateTime;
 use Anibalealvarezs\ApiDriverCore\Interfaces\SeederInterface;
 use Anibalealvarezs\ApiDriverCore\Traits\SyncDriverTrait;
+use Anibalealvarezs\ApiDriverCore\Interfaces\CanonicalMetricDictionaryProviderInterface;
+use Anibalealvarezs\ApiDriverCore\Interfaces\AggregationProfileProviderInterface;
+use Anibalealvarezs\ApiDriverCore\Classes\AggregationProfileTemplates;
 
-class AmazonDriver implements SyncDriverInterface
+class AmazonDriver implements SyncDriverInterface, CanonicalMetricDictionaryProviderInterface, AggregationProfileProviderInterface
 {
     use SyncDriverTrait;
+
+    public static function getAggregationProfiles(): array
+    {
+        return [
+            AggregationProfileTemplates::adsHierarchyProfile(
+                channel: 'amazon',
+                key: 'amazon_ads',
+                label: 'Amazon Ads Performance'
+            ),
+        ];
+    }
 
     /**
      * Store credentials for this driver.
@@ -182,6 +196,25 @@ class AmazonDriver implements SyncDriverInterface
     public static function getAssetPatterns(): array
     {
         return [];
+    }
+
+    /**
+     * @inheritdoc
+     */
+    public static function getCanonicalMetricDictionary(): array
+    {
+        return [
+            'spend' => ['cost'],
+            'clicks' => ['clicks'],
+            'impressions' => ['impressions'],
+            'conversions' => ['attributed_sales_30d', 'attributed_conversions_30d'],
+            'roas_purchase' => ['attributed_roas_30d'],
+        ];
+    }
+
+    public static function getPlatformEntityIdField(): string
+    {
+        return 'id';
     }
 
 
